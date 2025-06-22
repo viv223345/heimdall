@@ -37,11 +37,11 @@ Download the pre-built binary from the releases page and make it executable:
 # Download the binary
 wget https://github.com/viv223345/heimdall/releases/latest/download/heimdall
 chmod +x heimdall
-sudo mv heimdall /usr/local/bin/heimdall
-
-# Or install to user directory
 mkdir -p ~/.local/bin
 mv heimdall ~/.local/bin/heimdall
+
+# Or, install to /usr/local/bin
+# sudo mv heimdall /usr/local/bin/heimdall
 ```
 
 ### Method 2: From Source
